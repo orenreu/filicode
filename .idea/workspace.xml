@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5034d718-6ed7-4c84-a346-021c813dd5c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/mailer/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/mailer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/mailer/templates/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/mailer/templates/password/html.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/mailer/templates/password/text.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/components/Login.js" afterPath="$PROJECT_DIR$/app/components/Auth/Login.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/components/Signup.js" afterPath="$PROJECT_DIR$/app/components/Auth/Signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Auth/Password.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Auth/PasswordReset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/auth/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/utils/passport/auth.js" afterPath="$PROJECT_DIR$/server/utils/auth/config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/utils/passport/passport.js" afterPath="$PROJECT_DIR$/server/utils/auth/passport.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Auth/Login.js" afterPath="$PROJECT_DIR$/app/components/Auth/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Auth/Signup.js" afterPath="$PROJECT_DIR$/app/components/Auth/Signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Home.js" afterPath="$PROJECT_DIR$/app/components/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Main.js" afterPath="$PROJECT_DIR$/app/components/Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routes.js" afterPath="$PROJECT_DIR$/app/config/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/user.js" afterPath="$PROJECT_DIR$/server/api/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/models/index.js" afterPath="$PROJECT_DIR$/server/models/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/utils/constants.js" afterPath="$PROJECT_DIR$/server/utils/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/utils/mailer/index.js" afterPath="$PROJECT_DIR$/server/utils/mailer/index.js" />
     </list>
     <ignored path="filicode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Signup.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/components/Auth/Signup.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/utils/auth/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91833335">
-              <caret line="64" column="92" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.17666666">
+              <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
               <folding>
                 <element signature="e#0#120#0" expanded="false" />
               </folding>
@@ -71,13 +74,11 @@
         <option value="$PROJECT_DIR$/models/config.js" />
         <option value="$PROJECT_DIR$/app/utils/helpers.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/components/AppBar.js" />
         <option value="$PROJECT_DIR$/scss/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/app/components/Advertiser/Dashboard.js" />
         <option value="$PROJECT_DIR$/app/components/Dashboard.js" />
-        <option value="$PROJECT_DIR$/server/utils/passport/auth.js" />
         <option value="$PROJECT_DIR$/app/Signup.js" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/components/_button.scss" />
@@ -85,24 +86,32 @@
         <option value="$PROJECT_DIR$/app/components/Signin.js" />
         <option value="$PROJECT_DIR$/app/App.js" />
         <option value="$PROJECT_DIR$/app/components/ToolBar.js" />
-        <option value="$PROJECT_DIR$/app/components/Main.js" />
-        <option value="$PROJECT_DIR$/server/models/index.js" />
         <option value="$PROJECT_DIR$/app/components/Signup.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/server/utils/passport/passport.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/server/templates/layout.jade" />
         <option value="$PROJECT_DIR$/server/utils/mailer/config.js" />
         <option value="$PROJECT_DIR$/server/utils/mailer/templates/password/subject.jade" />
         <option value="$PROJECT_DIR$/app/components/Login.js" />
-        <option value="$PROJECT_DIR$/app/components/Home.js" />
         <option value="$PROJECT_DIR$/server/api/user.js" />
         <option value="$PROJECT_DIR$/server/utils/mailer/templates/password/text.jade" />
         <option value="$PROJECT_DIR$/server/utils/mailer/templates/layout.jade" />
-        <option value="$PROJECT_DIR$/server/utils/constants.js" />
-        <option value="$PROJECT_DIR$/server/utils/mailer/index.js" />
         <option value="$PROJECT_DIR$/server/utils/mailer/templates/password/html.jade" />
+        <option value="$PROJECT_DIR$/server/utils/passport/passport.js" />
+        <option value="$PROJECT_DIR$/server/utils/passport/auth.js" />
+        <option value="$PROJECT_DIR$/server/utils/auth/passport.js" />
+        <option value="$PROJECT_DIR$/server/utils/mailer/index.js" />
+        <option value="$PROJECT_DIR$/server/utils/constants.js" />
+        <option value="$PROJECT_DIR$/app/components/Main.js" />
+        <option value="$PROJECT_DIR$/app/components/Auth/Signup.js" />
+        <option value="$PROJECT_DIR$/app/components/Home.js" />
+        <option value="$PROJECT_DIR$/app/components/Auth/Login.js" />
+        <option value="$PROJECT_DIR$/app/components/Auth/Password.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/config/routes.js" />
+        <option value="$PROJECT_DIR$/server/models/index.js" />
+        <option value="$PROJECT_DIR$/app/components/Auth/PasswordReset.js" />
+        <option value="$PROJECT_DIR$/server/utils/auth/index.js" />
       </list>
     </option>
   </component>
@@ -177,18 +186,8 @@
               <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,11 +201,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,10 +376,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -361,7 +414,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -397,37 +452,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
-            <marker date="1466181854000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466181854000" expanded="true" signature="252:4123" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="287:428" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="304:421" placeholder="{&quot;email&quot;: ''...}" />
-            <marker date="1466181854000" expanded="true" signature="460:720" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="484:712" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="747:818" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="771:811" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="851:1469" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="972:1057" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1097:1251" placeholder="{&quot;role&quot;: 'advertiser'...}" />
-            <marker date="1466181854000" expanded="true" signature="1295:1357" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1399:1458" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1529:1593" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1619:4121" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1650:4104" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1672:2314" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1824:2166" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1878:2139" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1932:2110" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2187:2291" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2332:3870" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2432:3742" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2492:2799" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2620:2768" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2824:3146" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2958:3115" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3171:3521" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3319:3490" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3546:3714" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3887:4085" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466259264000" expanded="true" signature="252:4281" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="272:329" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="364:505" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="381:498" placeholder="{&quot;email&quot;: ''...}" />
+            <marker date="1466259264000" expanded="true" signature="537:797" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="561:789" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="824:895" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="848:888" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="928:1627" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1049:1134" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1174:1328" placeholder="{&quot;role&quot;: 'advertiser'...}" />
+            <marker date="1466259264000" expanded="true" signature="1372:1515" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1419:1497" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1557:1616" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1687:1751" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1777:4279" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1808:4262" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="1830:2472" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="1982:2324" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2036:2297" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2090:2268" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2345:2449" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2490:4028" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2590:3900" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2650:2957" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2778:2926" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2982:3304" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3116:3273" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3329:3679" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3477:3648" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3704:3872" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="4045:4243" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -437,37 +494,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
-            <marker date="1466181854000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466181854000" expanded="true" signature="252:4123" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="287:428" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="304:421" placeholder="{&quot;email&quot;: ''...}" />
-            <marker date="1466181854000" expanded="true" signature="460:720" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="484:712" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="747:818" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="771:811" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="851:1469" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="972:1057" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1097:1251" placeholder="{&quot;role&quot;: 'advertiser'...}" />
-            <marker date="1466181854000" expanded="true" signature="1295:1357" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1399:1458" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1529:1593" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1619:4121" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1650:4104" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1672:2314" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1824:2166" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1878:2139" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1932:2110" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2187:2291" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2332:3870" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2432:3742" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2492:2799" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2620:2768" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2824:3146" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2958:3115" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3171:3521" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3319:3490" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3546:3714" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3887:4085" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466259264000" expanded="true" signature="252:4281" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="272:329" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="364:505" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="381:498" placeholder="{&quot;email&quot;: ''...}" />
+            <marker date="1466259264000" expanded="true" signature="537:797" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="561:789" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="824:895" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="848:888" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="928:1627" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1049:1134" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1174:1328" placeholder="{&quot;role&quot;: 'advertiser'...}" />
+            <marker date="1466259264000" expanded="true" signature="1372:1515" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1419:1497" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1557:1616" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1687:1751" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1777:4279" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1808:4262" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="1830:2472" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="1982:2324" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2036:2297" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2090:2268" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2345:2449" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2490:4028" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2590:3900" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2650:2957" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2778:2926" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2982:3304" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3116:3273" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3329:3679" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3477:3648" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3704:3872" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="4045:4243" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -497,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08453838">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.095">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -584,118 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/utils/passport/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.475">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41166666">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/ToolBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16083333">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <marker date="1466172085000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466172085000" expanded="true" signature="332:357" placeholder="{&quot;marginTop&quot;: '10px'...}" />
-            <marker date="1466172085000" expanded="true" signature="401:1776" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="437:486" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="452:480" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="511:554" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="606:647" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="675:740" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="699:733" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="767:1773" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="798:1756" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="844:1051" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="880:980" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="1068:1734" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="1106:1361" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="1382:1699" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="1422:1598" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172085000" expanded="true" signature="1896:2381" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="1922:2379" placeholder="{...}" />
-            <marker date="1466172085000" expanded="true" signature="1953:2361" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49083334">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/utils/passport/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.33">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-          <folding>
-            <marker date="1466183016000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466183016000" expanded="true" signature="480:508" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="557:692" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="603:636" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="657:688" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="698:928" placeholder="//..." />
-            <marker date="1466183016000" expanded="true" signature="962:1664" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1044:1661" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1077:1495" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1102:1262" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1285:1382" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1407:1483" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1501:1653" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="1668:1898" placeholder="//..." />
-            <marker date="1466183016000" expanded="true" signature="1931:2004" placeholder="{&quot;usernameField&quot;: 'email'...}" />
-            <marker date="1466183016000" expanded="true" signature="2046:2578" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="2178:2506" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="2207:2298" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="2350:2441" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="2529:2570" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="2585:2815" placeholder="//..." />
-            <marker date="1466183016000" expanded="true" signature="2850:3210" placeholder="{&quot;enableProof&quot;: true...}" />
-            <marker date="1466183016000" expanded="true" signature="3316:4295" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="3425:3934" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="3462:3859" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="3526:3844" placeholder="{&quot;provider&quot;: 'facebook'...}" />
-            <marker date="1466183016000" expanded="true" signature="3877:3924" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="3957:4201" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="3989:4190" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="4237:4278" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="4387:4437" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="4538:4609" placeholder="{&quot;successRedirect&quot;: '/'...}" />
-            <marker date="1466183016000" expanded="true" signature="4686:4785" placeholder="{&quot;successRedirect&quot;: '/'...}" />
-            <marker date="1466183016000" expanded="true" signature="4885:4949" placeholder="{...}" />
-            <marker date="1466183016000" expanded="true" signature="5011:5060" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68083334">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50916666">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <marker date="1466182394000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466182394000" expanded="true" signature="991:1036" placeholder="{&quot;aggregateTimeout&quot;: 300...}" />
-            <marker date="1466182394000" expanded="true" signature="1059:1084" placeholder="{...}" />
-            <marker date="1466182394000" expanded="true" signature="1195:1259" placeholder="{...}" />
-            <marker date="1466182394000" expanded="true" signature="1522:1587" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,38 +658,6 @@
             <marker date="1463624993000" expanded="true" signature="1242:1561" placeholder="..." />
             <marker date="1463624993000" expanded="true" signature="1614:1691" placeholder="..." />
             <marker date="1463624993000" expanded="true" signature="1718:1739" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.095">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <marker date="1466229354000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466229354000" expanded="true" signature="212:685" placeholder="{...}" />
-            <marker date="1466229354000" expanded="true" signature="238:418" placeholder="{...}" />
-            <marker date="1466229354000" expanded="true" signature="299:345" placeholder="{...}" />
-            <marker date="1466229354000" expanded="true" signature="368:411" placeholder="{...}" />
-            <marker date="1466229354000" expanded="true" signature="444:683" placeholder="{...}" />
-            <marker date="1466229354000" expanded="true" signature="475:666" placeholder="&lt;xml/&gt;" />
-            <marker date="1466229354000" expanded="true" signature="497:580" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26916668">
-          <caret line="23" column="107" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
-          <folding>
-            <marker date="1466238717000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466238717000" expanded="true" signature="243:342" placeholder="{...}" />
-            <marker date="1466238717000" expanded="true" signature="276:310" placeholder="{...}" />
-            <marker date="1466238717000" expanded="true" signature="386:654" placeholder="{...}" />
-            <marker date="1466238717000" expanded="true" signature="518:574" placeholder="{...}" />
-            <marker date="1466238717000" expanded="true" signature="597:650" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -818,40 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/utils/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.095">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <marker date="1466241409000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466241409000" expanded="true" signature="138:473" placeholder="{&quot;ADMIN_EMAIL&quot;: 'hello@startup-friendly.com'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/utils/mailer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25333333">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <marker date="1466241716000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466241716000" expanded="true" signature="384:645" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="522:641" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="538:634" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="749:1085" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="775:823" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="857:1081" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="876:969" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="975:1075" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="1150:1564" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="1301:1560" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="1414:1553" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="1446:1490" placeholder="{...}" />
-            <marker date="1466241716000" expanded="true" signature="1496:1542" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/utils/mailer/templates/password/html.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.475">
@@ -879,104 +757,376 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11083333">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <marker date="1466257887000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466257887000" expanded="true" signature="138:515" placeholder="{&quot;ADMIN_EMAIL&quot;: 'hello@startup-friendly.com'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41166666">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1466171698000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466171698000" expanded="true" signature="537:637" placeholder="//..." />
+            <marker date="1466171698000" expanded="true" signature="689:815" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ToolBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16083333">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <marker date="1466172085000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466172085000" expanded="true" signature="332:357" placeholder="{&quot;marginTop&quot;: '10px'...}" />
+            <marker date="1466172085000" expanded="true" signature="401:1776" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="437:486" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="452:480" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="511:554" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="606:647" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="675:740" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="699:733" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="767:1773" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="798:1756" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="844:1051" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="880:980" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1068:1734" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1106:1361" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1382:1699" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1422:1598" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1896:2381" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="1922:2379" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="1953:2361" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/mailer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1466257887000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466257887000" expanded="true" signature="358:619" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="496:615" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="512:608" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="714:1050" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="740:788" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="822:1046" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="841:934" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="940:1040" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="1067:1590" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="1128:1588" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="1290:1580" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="1406:1569" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="1442:1494" placeholder="{...}" />
+            <marker date="1466257887000" expanded="true" signature="1500:1554" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325">
+          <caret line="27" column="6" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <marker date="1466238717000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466238717000" expanded="true" signature="243:342" placeholder="{...}" />
+            <marker date="1466238717000" expanded="true" signature="276:310" placeholder="{...}" />
+            <marker date="1466238717000" expanded="true" signature="386:654" placeholder="{...}" />
+            <marker date="1466238717000" expanded="true" signature="518:574" placeholder="{...}" />
+            <marker date="1466238717000" expanded="true" signature="597:650" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/auth/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.475">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <marker date="1465993969000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1465993969000" expanded="true" signature="227:914" placeholder="{...}" />
+            <marker date="1465993969000" expanded="true" signature="251:484" placeholder="{&quot;clientID&quot;: '1100217973333725'...}" />
+            <marker date="1465993969000" expanded="true" signature="507:703" placeholder="{&quot;consumerKey&quot;: 'your-consumer-key-here'...}" />
+            <marker date="1465993969000" expanded="true" signature="725:911" placeholder="{&quot;clientID&quot;: 'your-secret-clientID-here'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/auth/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.67833334">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <marker date="1466255915000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466255915000" expanded="true" signature="482:510" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="559:694" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="605:638" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="659:690" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="702:932" placeholder="//..." />
+            <marker date="1466255915000" expanded="true" signature="965:1038" placeholder="{&quot;usernameField&quot;: 'email'...}" />
+            <marker date="1466255915000" expanded="true" signature="1080:1612" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="1212:1540" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="1241:1332" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="1384:1475" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="1563:1604" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="1619:1849" placeholder="//..." />
+            <marker date="1466255915000" expanded="true" signature="1884:2244" placeholder="{&quot;enableProof&quot;: true...}" />
+            <marker date="1466255915000" expanded="true" signature="2350:3329" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="2459:2968" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="2496:2893" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="2560:2878" placeholder="{&quot;provider&quot;: 'facebook'...}" />
+            <marker date="1466255915000" expanded="true" signature="2911:2958" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="2991:3235" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="3023:3224" placeholder="{...}" />
+            <marker date="1466255915000" expanded="true" signature="3271:3312" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30083334">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.285">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
-            <marker date="1466172169000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466172169000" expanded="true" signature="240:889" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="264:319" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="281:313" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="345:602" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="398:505" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="431:490" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="543:594" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="628:887" placeholder="{...}" />
-            <marker date="1466172169000" expanded="true" signature="659:870" placeholder="&lt;xml/&gt;" />
-            <marker date="1466172169000" expanded="true" signature="759:851" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466259264000" expanded="true" signature="240:888" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="264:319" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="281:313" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="345:601" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="398:504" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="430:489" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="542:593" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="627:886" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="658:869" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="758:850" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17416666">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <marker date="1466269609000" expanded="true" signature="31:312" placeholder="..." />
+            <marker date="1466269609000" expanded="true" signature="38:233" placeholder="..." />
+            <marker date="1466269609000" expanded="true" signature="240:304" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34833333">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <marker date="1466259264000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466259264000" expanded="true" signature="184:494" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="213:221" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="247:492" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="278:475" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="300:383" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.095">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.30083334">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           <folding>
-            <marker date="1466241974000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466241974000" expanded="true" signature="531:783" placeholder="&lt;xml/&gt;" />
+            <marker date="1466269750000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466269750000" expanded="true" signature="652:1059" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4275">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <marker date="1466271139000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466271139000" expanded="true" signature="318:699" placeholder="{...}" />
+            <marker date="1466271139000" expanded="true" signature="752:861" placeholder="{...}" />
+            <marker date="1466271139000" expanded="true" signature="906:933" placeholder="{...}" />
+            <marker date="1466271139000" expanded="true" signature="992:1043" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <marker date="1466269750000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466269750000" expanded="true" signature="978:1023" placeholder="{&quot;aggregateTimeout&quot;: 300...}" />
+            <marker date="1466269750000" expanded="true" signature="1046:1071" placeholder="{...}" />
+            <marker date="1466269750000" expanded="true" signature="1182:1246" placeholder="{...}" />
+            <marker date="1466269750000" expanded="true" signature="1597:1662" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Auth/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0475">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
+        <state vertical-scroll-proportion="1.0608333">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="77" selection-end-column="1" />
           <folding>
-            <marker date="1466184275000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466184275000" expanded="true" signature="288:2738" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="312:372" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="329:366" placeholder="{&quot;message&quot;: null...}" />
-            <marker date="1466184275000" expanded="true" signature="398:694" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="496:647" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="528:593" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="675:687" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="720:2736" placeholder="{...}" />
-            <marker date="1466184275000" expanded="true" signature="751:2719" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="868:1413" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="922:1265" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="976:1238" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1030:1209" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1286:1390" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1430:2616" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1530:2495" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1596:1840" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1865:2274" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="1999:2128" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="2299:2467" placeholder="&lt;xml/&gt;" />
-            <marker date="1466184275000" expanded="true" signature="2774:2951" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466259762000" expanded="true" signature="288:2733" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="312:372" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="329:366" placeholder="{&quot;message&quot;: null...}" />
+            <marker date="1466259762000" expanded="true" signature="398:694" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="496:647" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="528:593" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="675:687" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="720:2731" placeholder="{...}" />
+            <marker date="1466259762000" expanded="true" signature="751:2714" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="868:1413" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="922:1265" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="976:1238" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1030:1209" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1286:1390" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1430:2611" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1530:2490" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1596:1840" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1865:2269" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="1999:2128" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="2294:2462" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259762000" expanded="true" signature="2769:2946" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Auth/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91833335">
-          <caret line="64" column="92" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="92" />
+        <state vertical-scroll-proportion="0.7441667">
+          <caret line="53" column="21" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="21" />
           <folding>
-            <marker date="1466181854000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
-            <marker date="1466181854000" expanded="true" signature="252:4123" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="287:428" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="304:421" placeholder="{&quot;email&quot;: ''...}" />
-            <marker date="1466181854000" expanded="true" signature="460:720" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="484:712" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="747:818" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="771:811" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="851:1469" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="972:1057" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1097:1251" placeholder="{&quot;role&quot;: 'advertiser'...}" />
-            <marker date="1466181854000" expanded="true" signature="1295:1357" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1399:1458" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1529:1593" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1619:4121" placeholder="{...}" />
-            <marker date="1466181854000" expanded="true" signature="1650:4104" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1672:2314" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1824:2166" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1878:2139" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="1932:2110" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2187:2291" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2332:3870" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2432:3742" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2492:2799" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2620:2768" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2824:3146" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="2958:3115" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3171:3521" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3319:3490" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3546:3714" placeholder="&lt;xml/&gt;" />
-            <marker date="1466181854000" expanded="true" signature="3887:4085" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466259264000" expanded="true" signature="252:4281" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="272:329" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="364:505" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="381:498" placeholder="{&quot;email&quot;: ''...}" />
+            <marker date="1466259264000" expanded="true" signature="537:797" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="561:789" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="824:895" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="848:888" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="928:1627" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1049:1134" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1174:1328" placeholder="{&quot;role&quot;: 'advertiser'...}" />
+            <marker date="1466259264000" expanded="true" signature="1372:1515" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1419:1497" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1557:1616" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1687:1751" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1777:4279" placeholder="{...}" />
+            <marker date="1466259264000" expanded="true" signature="1808:4262" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="1830:2472" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="1982:2324" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2036:2297" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2090:2268" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2345:2449" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2490:4028" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2590:3900" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2650:2957" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2778:2926" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="2982:3304" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3116:3273" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3329:3679" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3477:3648" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="3704:3872" placeholder="&lt;xml/&gt;" />
+            <marker date="1466259264000" expanded="true" signature="4045:4243" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Auth/Password.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7783333">
+          <caret line="79" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1466267411000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466267411000" expanded="true" signature="220:1522" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="243:376" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="260:370" placeholder="{&quot;code&quot;: ''...}" />
+            <marker date="1466267411000" expanded="true" signature="413:472" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="493:969" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="629:887" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="709:782" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="788:873" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="905:960" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="995:1520" placeholder="{...}" />
+            <marker date="1466267411000" expanded="true" signature="1026:1503" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="1138:1400" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="1556:1940" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="1597:1734" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="1743:1929" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="1786:1914" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="1975:2555" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="2020:2398" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="2231:2383" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="2407:2543" placeholder="&lt;xml/&gt;" />
+            <marker date="1466267411000" expanded="true" signature="2591:2768" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Auth/PasswordReset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25333333">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <marker date="1466274687000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466274687000" expanded="true" signature="264:1925" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="288:435" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="305:429" placeholder="{&quot;password&quot;: ''...}" />
+            <marker date="1466274687000" expanded="true" signature="456:671" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="480:664" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="693:1361" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="812:923" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="847:911" placeholder="{&quot;message&quot;: &quot;Passwords don't match&quot;...}" />
+            <marker date="1466274687000" expanded="true" signature="968:1109" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="1134:1285" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="1173:1275" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="1205:1260" placeholder="{&quot;submitted&quot;: true...}" />
+            <marker date="1466274687000" expanded="true" signature="1310:1353" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="1387:1922" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="1418:1905" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="1530:1802" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="1959:2249" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2052:2238" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2095:2223" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2283:3293" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="2309:3290" placeholder="{...}" />
+            <marker date="1466274687000" expanded="true" signature="2340:3274" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2448:2744" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2566:2721" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2761:3085" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="2893:3062" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="3102:3254" placeholder="&lt;xml/&gt;" />
+            <marker date="1466274687000" expanded="true" signature="3329:3506" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/auth/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17666666">
+          <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#120#0" expanded="false" />
           </folding>
         </state>
       </provider>

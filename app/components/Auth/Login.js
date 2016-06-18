@@ -56,7 +56,7 @@ var Signin = React.createClass({
                             <label htmlFor="password_input">Password</label>
                             <input name="password" id="password_input" type="password"
                                    className="form-control" required/>
-                            <p style={{paddingTop:5}}>Forgot password? <a href="/auth/password">Click here</a></p>
+                            <p style={{paddingTop:5}}>Forgot password? <a href="/password">Click here</a></p>
                         </div>
                         <div className="form-group">
                             <input type="submit" className="btn btn-primary full-width-btn" value="Submit"/>

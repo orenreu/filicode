@@ -11,7 +11,7 @@ var passport = require('passport')
 var LocalStrategy = require('passport-local').Strategy;
 const router = require('express').Router();
 var FacebookStrategy = require('passport-facebook').Strategy;
-var configAuth = require('./auth');
+var configAuth = require('./config');
 var CryptoJS = require('crypto-js');
 
 
@@ -29,32 +29,6 @@ passport.deserializeUser(function (id, done) {
 
 
 
-// =========================================================================
-// SIGNUP===================================================================
-// =========================================================================
-
-function handleSignup(req, res) {
-
-    User.getJoin(req.body.email, {index: 'email'}).run().then(function (users) {
-        if (users.length == 0) {
-
-            User.save({
-                email: req.body.email,
-                password: CryptoJS.MD5(req.body.password).toString(),
-                role: req.body.role
-            }).then(function (user) {
-                res.status(200).send(JSON.stringify({success: true, user: user}))
-            }).error(function (error) {
-                res.status(500).send({error: error.message})
-            });
-        } else {
-            //Email already is in the DB
-            res.status(200).send(JSON.stringify({success: false, message: 'Email already exists'}))
-        }
-
-
-    })
-};
 
 
 // =========================================================================
@@ -133,42 +107,7 @@ passport.use(new FacebookStrategy({
     }));
 
 
-//Handle Facebook Login
-router.get('/facebook',
-    passport.authenticate('facebook', {
-        scope: ['email', 'public_profile']
-    }))
-//Handle Facebook callback
-router.get('/facebook/callback',
-    passport.authenticate('facebook', {
-        successRedirect: '/',
-        failureRedirect: '/login'
-    }));
 
-//Handle Login
-router.post('/login',
-    passport.authenticate('local', {
-        successRedirect: '/',
-        failureRedirect: '/login',
-        failureFlash: true
-    })
-);
-
-//Handle Signup
-router.post('/signup', handleSignup)
-
-router.get('/flash', function(req, res) {
-    res.status(200).send(JSON.stringify(req.flash('error')))
-})
-
-
-//Handle Logout
-router.get('/logout', function (req, res) {
-    req.logout();
-    res.redirect('/login');
-});
-
-module.exports = router;
 
 
 

@@ -43,6 +43,7 @@
     "history": "^3.0.0",
     "jade": "^1.11.0",
     "material-ui": "^0.15.0",
+    "moment": "^2.13.0",
     "node-sass": "^3.7.0",
     "nodemailer": "^2.4.2",
     "passport": "^0.3.2",

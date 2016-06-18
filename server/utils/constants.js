@@ -11,6 +11,7 @@ var constants = {
     ADMIN_EMAIL : 'hello@startup-friendly.com',
     SYSTEM_EMAIL: 'hello@startup-friendly.com',
     SYSTEM_NAME : 'Filicode',
+    SYSTEM_URL : 'http://localhost:3000',
     SMTP_HOST: 'startup-friendly.com',
     SMTP_PASSWORD: 'sufriendly123',
     CLOUDINARY_NAME: "benzo",

@@ -17,7 +17,6 @@ var Main = React.createClass({
     },
     componentWillMount(){
         Axios.get('/api/user').then( (response) => {
-
                 this.setState({
                     user: response.data
                 })

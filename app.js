@@ -14,7 +14,7 @@ const express = require('express');
 var passport = require('passport');
 var session = require('express-session');
 var flash = require('connect-flash');
-var Auth = require('./server/utils/passport/passport')
+var Auth = require('./server/utils/auth')
 var User = require('./server/api/user')
 
 const app = new express();
@@ -54,6 +54,8 @@ app.get('/', serveIndex);
 app.get('/advertiser', serveIndex);
 app.get('/signup', serveIndex);
 app.get('/login', serveIndex);
+app.get('/password', serveIndex);
+app.get('/password/reset/:userId/:code', serveIndex);
 
 
 

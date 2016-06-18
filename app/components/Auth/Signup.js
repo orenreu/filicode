@@ -12,6 +12,9 @@ var Axios = require('axios');
 
 
 var Signup = React.createClass({
+    contextTypes: {
+        router: React.PropTypes.object.isRequired
+    },
     getInitialState: function () {
         return {
             email: '',
@@ -46,7 +49,9 @@ var Signup = React.createClass({
                     role: 'advertiser'
                 })
                 .then(function (response) {
-                    console.log(response);
+                    if(response.data.success){
+                        self.context.router.push("/");
+                    }
                 })
                 .catch(function (error) {
                     console.log(error);

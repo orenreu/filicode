@@ -23,7 +23,10 @@ const User = thinky.createModel('User', {
     email: type.string(),
     password: type.string(),
     photo: type.string(),
-    role: type.string().enum(["admin", "advertiser", "publisher"])
+    role: type.string().enum(["admin", "advertiser", "publisher"]),
+    code: type.string(),
+    code_updated_at: type.date(),
+    updated_at: type.date()
 })
 
 

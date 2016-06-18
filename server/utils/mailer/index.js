@@ -12,10 +12,10 @@ var path = require('path');
 var transporter = require('./config');
 
 
-const mailer = {}
+
 
 //Set and render the template
-mailer.setTemplate = function (template) {
+function setTemplate (template) {
     var templateDir = path.join(__dirname, 'templates', template)
     return transporter.templateSender(new EmailTemplate(templateDir), {
         from: {
@@ -26,7 +26,7 @@ mailer.setTemplate = function (template) {
 }
 
 //Deliver the email
-mailer.deliver = function (templateTransporter, to, subject, emailData, callback) {
+function deliver (templateTransporter, to, subject, emailData, callback) {
     templateTransporter({
         to: to,
         subject: subject
@@ -41,26 +41,28 @@ mailer.deliver = function (templateTransporter, to, subject, emailData, callback
     });
 }
 
+const mailer = {
 
-mailer.sendMail = function (to, subject, template, emailData) {
-    var self = this;
+    sendMail: function (to, subject, template, emailData) {
+        var self = this;
 
-    //Set template
-    var templateTrasnporter = this.setTemplate(template)
+        //Set template
+        var templateTrasnporter = setTemplate(template)
 
-    return new Promise(function (resolve, reject) {
-        //Deliver email
-        self.deliver(templateTrasnporter, to, subject, emailData, function (err, info) {
+        return new Promise(function (resolve, reject) {
+            //Deliver email
+            deliver(templateTrasnporter, to, subject, emailData, function (err, info) {
 
-            if (err != null) {
-                reject(err);
-            } else {
-                resolve(info);
-            }
+                if (err != null) {
+                    reject(err);
+                } else {
+                    resolve(info);
+                }
 
+            })
         })
-    })
 
+    }
 }
 
 

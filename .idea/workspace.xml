@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5034d718-6ed7-4c84-a346-021c813dd5c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Advertiser/Dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Signup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/ToolBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/utils/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/pages/_signin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/api/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/models/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/models/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/passport/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/utils/passport/passport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
+    <ignored path="filicode.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="filicode" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20583333">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#120#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/models/config.js" />
+        <option value="$PROJECT_DIR$/app/utils/helpers.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app/components/Home.js" />
+        <option value="$PROJECT_DIR$/app/components/AppBar.js" />
+        <option value="$PROJECT_DIR$/scss/abstracts/_variables.scss" />
+        <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/app/components/Advertiser/Dashboard.js" />
+        <option value="$PROJECT_DIR$/app/components/Dashboard.js" />
+        <option value="$PROJECT_DIR$/server/utils/passport/auth.js" />
+        <option value="$PROJECT_DIR$/app/Signup.js" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_button.scss" />
+        <option value="$PROJECT_DIR$/scss/pages/_signin.scss" />
+        <option value="$PROJECT_DIR$/server/api/user.js" />
+        <option value="$PROJECT_DIR$/app/components/Signin.js" />
+        <option value="$PROJECT_DIR$/app/App.js" />
+        <option value="$PROJECT_DIR$/app/config/routes.js" />
+        <option value="$PROJECT_DIR$/app/components/ToolBar.js" />
+        <option value="$PROJECT_DIR$/app/components/Main.js" />
+        <option value="$PROJECT_DIR$/server/models/index.js" />
+        <option value="$PROJECT_DIR$/app/components/Signup.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/server/utils/passport/passport.js" />
+        <option value="$PROJECT_DIR$/app/components/Login.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/components" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/app/components/Advertiser" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5034d718-6ed7-4c84-a346-021c813dd5c0" name="Default" comment="" />
+      <created>1465906433705</created>
+      <option name="number" value="Default" />
+      <updated>1465906433705</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.106770836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/components/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <marker date="1466181854000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466181854000" expanded="true" signature="252:4123" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="287:428" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="304:421" placeholder="{&quot;email&quot;: ''...}" />
+            <marker date="1466181854000" expanded="true" signature="460:720" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="484:712" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="747:818" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="771:811" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="851:1469" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="972:1057" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1097:1251" placeholder="{&quot;role&quot;: 'advertiser'...}" />
+            <marker date="1466181854000" expanded="true" signature="1295:1357" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1399:1458" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1529:1593" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1619:4121" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1650:4104" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1672:2314" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1824:2166" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1878:2139" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1932:2110" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2187:2291" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2332:3870" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2432:3742" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2492:2799" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2620:2768" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2824:3146" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2958:3115" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3171:3521" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3319:3490" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3546:3714" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3887:4085" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <marker date="1466181854000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466181854000" expanded="true" signature="252:4123" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="287:428" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="304:421" placeholder="{&quot;email&quot;: ''...}" />
+            <marker date="1466181854000" expanded="true" signature="460:720" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="484:712" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="747:818" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="771:811" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="851:1469" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="972:1057" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1097:1251" placeholder="{&quot;role&quot;: 'advertiser'...}" />
+            <marker date="1466181854000" expanded="true" signature="1295:1357" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1399:1458" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1529:1593" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1619:4121" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1650:4104" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1672:2314" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1824:2166" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1878:2139" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1932:2110" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2187:2291" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2332:3870" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2432:3742" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2492:2799" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2620:2768" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2824:3146" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2958:3115" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3171:3521" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3319:3490" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3546:3714" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3887:4085" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ToolBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08453838">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.095">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/abstracts/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41166666">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17416666">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Advertiser/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26916668">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.015833333">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20583333">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20583333">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.285">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_signin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11083333">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/passport/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.475">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <marker date="1465993969000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1465993969000" expanded="true" signature="227:914" placeholder="{...}" />
+            <marker date="1465993969000" expanded="true" signature="251:484" placeholder="{&quot;clientID&quot;: '1100217973333725'...}" />
+            <marker date="1465993969000" expanded="true" signature="507:703" placeholder="{&quot;consumerKey&quot;: 'your-consumer-key-here'...}" />
+            <marker date="1465993969000" expanded="true" signature="725:911" placeholder="{&quot;clientID&quot;: 'your-secret-clientID-here'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41166666">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1466171698000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466171698000" expanded="true" signature="537:637" placeholder="//..." />
+            <marker date="1466171698000" expanded="true" signature="689:815" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.095">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1466171808000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466171808000" expanded="true" signature="521:773" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30083334">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <marker date="1466172169000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466172169000" expanded="true" signature="240:889" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="264:319" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="281:313" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="345:602" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="398:505" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="431:490" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="543:594" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="628:887" placeholder="{...}" />
+            <marker date="1466172169000" expanded="true" signature="659:870" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172169000" expanded="true" signature="759:851" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ToolBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16083333">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <marker date="1466172085000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466172085000" expanded="true" signature="332:357" placeholder="{&quot;marginTop&quot;: '10px'...}" />
+            <marker date="1466172085000" expanded="true" signature="401:1776" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="437:486" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="452:480" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="511:554" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="606:647" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="675:740" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="699:733" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="767:1773" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="798:1756" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="844:1051" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="880:980" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1068:1734" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1106:1361" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1382:1699" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1422:1598" placeholder="&lt;xml/&gt;" />
+            <marker date="1466172085000" expanded="true" signature="1896:2381" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="1922:2379" placeholder="{...}" />
+            <marker date="1466172085000" expanded="true" signature="1953:2361" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49083334">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <marker date="1466178852000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466178852000" expanded="true" signature="318:611" placeholder="{...}" />
+            <marker date="1466178852000" expanded="true" signature="664:773" placeholder="{...}" />
+            <marker date="1466178852000" expanded="true" signature="818:845" placeholder="{...}" />
+            <marker date="1466178852000" expanded="true" signature="904:955" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2375">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <marker date="1466101674000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466101674000" expanded="true" signature="202:301" placeholder="{...}" />
+            <marker date="1466101674000" expanded="true" signature="235:269" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50916666">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <marker date="1466182394000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466182394000" expanded="true" signature="991:1036" placeholder="{&quot;aggregateTimeout&quot;: 300...}" />
+            <marker date="1466182394000" expanded="true" signature="1059:1084" placeholder="{...}" />
+            <marker date="1466182394000" expanded="true" signature="1195:1259" placeholder="{...}" />
+            <marker date="1466182394000" expanded="true" signature="1522:1587" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22416666">
+          <caret line="64" column="92" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="92" />
+          <folding>
+            <marker date="1466181854000" expanded="false" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466181854000" expanded="true" signature="252:4123" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="287:428" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="304:421" placeholder="{&quot;email&quot;: ''...}" />
+            <marker date="1466181854000" expanded="true" signature="460:720" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="484:712" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="747:818" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="771:811" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="851:1469" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="972:1057" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1097:1251" placeholder="{&quot;role&quot;: 'advertiser'...}" />
+            <marker date="1466181854000" expanded="true" signature="1295:1357" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1399:1458" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1529:1593" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1619:4121" placeholder="{...}" />
+            <marker date="1466181854000" expanded="true" signature="1650:4104" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1672:2314" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1824:2166" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1878:2139" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="1932:2110" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2187:2291" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2332:3870" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2432:3742" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2492:2799" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2620:2768" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2824:3146" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="2958:3115" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3171:3521" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3319:3490" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3546:3714" placeholder="&lt;xml/&gt;" />
+            <marker date="1466181854000" expanded="true" signature="3887:4085" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/utils/passport/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <marker date="1466183016000" expanded="true" signature="0:120" placeholder="/** Created by Benzo Media. ...*/" />
+            <marker date="1466183016000" expanded="true" signature="480:508" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="557:692" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="603:636" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="657:688" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="698:928" placeholder="//..." />
+            <marker date="1466183016000" expanded="true" signature="962:1664" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1044:1661" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1077:1495" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1102:1262" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1285:1382" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1407:1483" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1501:1653" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="1668:1898" placeholder="//..." />
+            <marker date="1466183016000" expanded="true" signature="1931:2004" placeholder="{&quot;usernameField&quot;: 'email'...}" />
+            <marker date="1466183016000" expanded="true" signature="2046:2578" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="2178:2506" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="2207:2298" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="2350:2441" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="2529:2570" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="2585:2815" placeholder="//..." />
+            <marker date="1466183016000" expanded="true" signature="2850:3210" placeholder="{&quot;enableProof&quot;: true...}" />
+            <marker date="1466183016000" expanded="true" signature="3316:4295" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="3425:3934" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="3462:3859" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="3526:3844" placeholder="{&quot;provider&quot;: 'facebook'...}" />
+            <marker date="1466183016000" expanded="true" signature="3877:3924" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="3957:4201" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="3989:4190" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="4237:4278" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="4387:4437" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="4538:4609" placeholder="{&quot;successRedirect&quot;: '/'...}" />
+            <marker date="1466183016000" expanded="true" signature="4686:4785" placeholder="{&quot;successRedirect&quot;: '/'...}" />
+            <marker date="1466183016000" expanded="true" signature="4885:4949" placeholder="{...}" />
+            <marker date="1466183016000" expanded="true" signature="5011:5060" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20583333">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -8,7 +8,7 @@
 
 
 const router = require('express').Router()
-
+const mailer = require('../utils/mailer')
 
 router.get('/', function(req,res) {
     if (req.isAuthenticated()) {
@@ -17,6 +17,17 @@ router.get('/', function(req,res) {
     else
         res.json({})
 })
+
+
+
+router.get('/mail', function(req, res) {
+    mailer.sendMail('orenreu@gmail.com',"Reset Password", 'password', {data:{link:"http://benzomedia.com"}}).then(function(result){
+        console.log("this is success: "+result);
+    }).catch(function(error){
+        console.log("this is error: "+error);
+    })
+
+});
 
 
 module.exports = router

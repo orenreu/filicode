@@ -35133,8 +35133,8 @@
 	var Main = __webpack_require__(331);
 	var Home = __webpack_require__(621);
 	var AdvertiserDashbord = __webpack_require__(622);
-	var Signup = __webpack_require__(623);
-	var Login = __webpack_require__(624);
+	var Signup = __webpack_require__(676);
+	var Login = __webpack_require__(677);
 	var Router = __webpack_require__(1);
 	var Route = Router.Route;
 	var IndexRoute = Router.IndexRoute;
@@ -56114,7 +56114,7 @@
 /* 621 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	/**
 	 * Created by Benzo Media.
@@ -56124,15 +56124,32 @@
 	 * Time: 15:33
 	 */
 	var React = __webpack_require__(4);
+	var Axios = __webpack_require__(602);
 
 	var Home = React.createClass({
-	    displayName: "Home",
+	    displayName: 'Home',
 
+	    sendMail: function sendMail() {
+	        Axios.get('/api/user/mail').then(function (response) {
+	            console.log(response);
+	        }).catch(function (error) {
+	            console.log(error);
+	        });
+	    },
 	    render: function render() {
 	        return React.createElement(
-	            "h2",
-	            { className: "text-center" },
-	            "You Are Home"
+	            'div',
+	            null,
+	            React.createElement(
+	                'h2',
+	                { className: 'text-center' },
+	                'You Are Home'
+	            ),
+	            React.createElement(
+	                'button',
+	                { onClick: this.sendMail },
+	                'Send Mail'
+	            )
 	        );
 	    }
 	});
@@ -56178,319 +56195,8 @@
 	module.exports = AdvertiserDashboard;
 
 /***/ },
-/* 623 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	/**
-	 * Created by Benzo Media.
-	 * http://www.benzomedia.com
-	 * User: Oren Reuveni
-	 * Date: 15/06/2016
-	 * Time: 17:05
-	 */
-	var React = __webpack_require__(4);
-	var ReactDOM = __webpack_require__(212);
-	var Axios = __webpack_require__(602);
-
-	var Signup = React.createClass({
-	    displayName: 'Signup',
-
-	    getInitialState: function getInitialState() {
-	        return {
-	            email: '',
-	            password: '',
-	            verify_password: '',
-	            message: ''
-	        };
-	    },
-	    handleChange: function handleChange() {
-	        this.setState({
-	            email: ReactDOM.findDOMNode(this.refs.email).value,
-	            password: ReactDOM.findDOMNode(this.refs.password).value,
-	            verify_password: ReactDOM.findDOMNode(this.refs.verify_password).value
-	        });
-	    },
-	    showMessage: function showMessage(message) {
-	        this.setState({
-	            message: message
-	        });
-	    },
-
-	    handleSubmit: function handleSubmit(e) {
-	        e.preventDefault();
-	        var self = this;
-
-	        if (this.state.password != this.state.verify_password) {
-	            self.showMessage("Passwords don't match");
-	            return;
-	        }
-	        Axios.post('/auth/signup', {
-	            email: this.state.email,
-	            password: this.state.password,
-	            role: 'advertiser'
-	        }).then(function (response) {
-	            console.log(response);
-	        }).catch(function (error) {
-	            console.log(error);
-	        });
-	    },
-	    shouldComponentUpdate: function shouldComponentUpdate(nextProps, nextState) {
-	        return nextState.message !== this.state.message;
-	    },
-	    render: function render() {
-	        return React.createElement(
-	            'div',
-	            null,
-	            React.createElement(
-	                'div',
-	                { className: 'facebook-signin' },
-	                React.createElement(
-	                    'h1',
-	                    { className: 'text-center', style: { marginBottom: 30 } },
-	                    'Signup to Filicode'
-	                ),
-	                React.createElement(
-	                    'div',
-	                    { className: 'text-center' },
-	                    React.createElement(
-	                        'a',
-	                        { href: '/auth/facebook' },
-	                        React.createElement(
-	                            'button',
-	                            { className: 'btn btn-facebook' },
-	                            React.createElement('i', { className: 'fa fa-facebook-square' }),
-	                            '    Signup with Facebook'
-	                        )
-	                    )
-	                ),
-	                React.createElement(
-	                    'div',
-	                    null,
-	                    React.createElement(
-	                        'h5',
-	                        { className: 'or-sperator text-center' },
-	                        'Or'
-	                    )
-	                )
-	            ),
-	            React.createElement(
-	                'div',
-	                { className: 'signup-div col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
-	                React.createElement(
-	                    'form',
-	                    { onSubmit: this.handleSubmit },
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement(
-	                            'label',
-	                            { htmlFor: 'email_input' },
-	                            'Email'
-	                        ),
-	                        React.createElement('input', { id: 'email_input', ref: 'email', type: 'email', className: 'form-control',
-	                            onChange: this.handleChange, required: true })
-	                    ),
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement(
-	                            'label',
-	                            { htmlFor: 'password_input' },
-	                            'Password'
-	                        ),
-	                        React.createElement('input', { id: 'password_input', ref: 'password', type: 'password', className: 'form-control',
-	                            onChange: this.handleChange, required: true })
-	                    ),
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement(
-	                            'label',
-	                            { htmlFor: 'verify_password_input' },
-	                            'Verify Password'
-	                        ),
-	                        React.createElement('input', { id: 'verify_password_input', ref: 'verify_password', type: 'password',
-	                            className: 'form-control', onChange: this.handleChange, required: true })
-	                    ),
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement('input', { type: 'submit', className: 'btn btn-primary full-width-btn', value: 'Submit' })
-	                    )
-	                ),
-	                React.createElement(
-	                    'p',
-	                    { className: 'text-center' },
-	                    'Already have an account? ',
-	                    React.createElement(
-	                        'a',
-	                        { href: '/login' },
-	                        'Sign in'
-	                    )
-	                )
-	            ),
-	            React.createElement(
-	                'div',
-	                { className: 'error-message col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
-	                React.createElement(
-	                    'h5',
-	                    { className: 'text-center message text-danger' },
-	                    this.state.message
-	                )
-	            )
-	        );
-	    }
-	});
-
-	module.exports = Signup;
-
-/***/ },
-/* 624 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	/**
-	 * Created by Benzo Media.
-	 * http://www.benzomedia.com
-	 * User: Oren Reuveni
-	 * Date: 16/06/2016
-	 * Time: 00:34
-	 */
-	var React = __webpack_require__(4);
-	var ReactDOM = __webpack_require__(212);
-	var Axios = __webpack_require__(602);
-	var CryptoJS = __webpack_require__(625);
-
-	var Signin = React.createClass({
-	    displayName: 'Signin',
-	    getInitialState: function getInitialState() {
-	        return {
-	            message: null
-	        };
-	    },
-	    componentWillMount: function componentWillMount() {
-	        var self = this;
-	        Axios.get('/auth/flash').then(function (response) {
-	            self.setState({
-	                message: response.data[0]
-	            });
-	            console.log(response);
-	        }).catch(function (response) {});
-	    },
-
-	    render: function render() {
-	        return React.createElement(
-	            'div',
-	            null,
-	            React.createElement(
-	                'h1',
-	                { className: 'text-center', style: { marginBottom: 30 } },
-	                'Sign in to Filicode'
-	            ),
-	            React.createElement(
-	                'div',
-	                { className: 'facebook-signin' },
-	                React.createElement(
-	                    'div',
-	                    { className: 'text-center' },
-	                    React.createElement(
-	                        'a',
-	                        { href: '/auth/facebook' },
-	                        React.createElement(
-	                            'button',
-	                            { className: 'btn btn-facebook' },
-	                            React.createElement('i', { className: 'fa fa-facebook-square' }),
-	                            '    Sign in with Facebook'
-	                        )
-	                    )
-	                ),
-	                React.createElement(
-	                    'div',
-	                    null,
-	                    React.createElement(
-	                        'h5',
-	                        { className: 'or-sperator text-center' },
-	                        'Or'
-	                    )
-	                )
-	            ),
-	            React.createElement(
-	                'div',
-	                { className: 'signup-div col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
-	                React.createElement(
-	                    'form',
-	                    { action: '/auth/login', method: 'POST' },
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement(
-	                            'label',
-	                            { htmlFor: 'email_input' },
-	                            'Email'
-	                        ),
-	                        React.createElement('input', { name: 'email', id: 'email_input', type: 'email', className: 'form-control', required: true })
-	                    ),
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement(
-	                            'label',
-	                            { htmlFor: 'password_input' },
-	                            'Password'
-	                        ),
-	                        React.createElement('input', { name: 'password', id: 'password_input', type: 'password',
-	                            className: 'form-control', required: true }),
-	                        React.createElement(
-	                            'p',
-	                            { style: { paddingTop: 5 } },
-	                            'Forgot password? ',
-	                            React.createElement(
-	                                'a',
-	                                { href: '/auth/password' },
-	                                'Click here'
-	                            )
-	                        )
-	                    ),
-	                    React.createElement(
-	                        'div',
-	                        { className: 'form-group' },
-	                        React.createElement('input', { type: 'submit', className: 'btn btn-primary full-width-btn', value: 'Submit' })
-	                    )
-	                ),
-	                React.createElement(
-	                    'p',
-	                    { className: 'text-center' },
-	                    'First time here? ',
-	                    React.createElement(
-	                        'a',
-	                        { href: '/signup' },
-	                        'Sign up'
-	                    )
-	                )
-	            ),
-	            this.state.message ? React.createElement(Alert, { message: this.state.message }) : null
-	        );
-	    }
-	});
-
-	var Alert = function Alert(props) {
-	    return React.createElement(
-	        'div',
-	        { style: { marginTop: 20 }, className: 'alert alert-danger col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
-	        React.createElement(
-	            'h5',
-	            { className: 'text-center' },
-	            props.message
-	        )
-	    );
-	};
-
-	module.exports = Signin;
-
-/***/ },
+/* 623 */,
+/* 624 */,
 /* 625 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -63643,6 +63349,319 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 676 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	/**
+	 * Created by Benzo Media.
+	 * http://www.benzomedia.com
+	 * User: Oren Reuveni
+	 * Date: 15/06/2016
+	 * Time: 17:05
+	 */
+	var React = __webpack_require__(4);
+	var ReactDOM = __webpack_require__(212);
+	var Axios = __webpack_require__(602);
+
+	var Signup = React.createClass({
+	    displayName: 'Signup',
+
+	    getInitialState: function getInitialState() {
+	        return {
+	            email: '',
+	            password: '',
+	            verify_password: '',
+	            message: ''
+	        };
+	    },
+	    handleChange: function handleChange() {
+	        this.setState({
+	            email: ReactDOM.findDOMNode(this.refs.email).value,
+	            password: ReactDOM.findDOMNode(this.refs.password).value,
+	            verify_password: ReactDOM.findDOMNode(this.refs.verify_password).value
+	        });
+	    },
+	    showMessage: function showMessage(message) {
+	        this.setState({
+	            message: message
+	        });
+	    },
+
+	    handleSubmit: function handleSubmit(e) {
+	        e.preventDefault();
+	        var self = this;
+
+	        if (this.state.password != this.state.verify_password) {
+	            self.showMessage("Passwords don't match");
+	            return;
+	        }
+	        Axios.post('/auth/signup', {
+	            email: this.state.email,
+	            password: this.state.password,
+	            role: 'advertiser'
+	        }).then(function (response) {
+	            console.log(response);
+	        }).catch(function (error) {
+	            console.log(error);
+	        });
+	    },
+	    shouldComponentUpdate: function shouldComponentUpdate(nextProps, nextState) {
+	        return nextState.message !== this.state.message;
+	    },
+	    render: function render() {
+	        return React.createElement(
+	            'div',
+	            null,
+	            React.createElement(
+	                'div',
+	                { className: 'facebook-signin' },
+	                React.createElement(
+	                    'h1',
+	                    { className: 'text-center', style: { marginBottom: 30 } },
+	                    'Signup to Filicode'
+	                ),
+	                React.createElement(
+	                    'div',
+	                    { className: 'text-center' },
+	                    React.createElement(
+	                        'a',
+	                        { href: '/auth/facebook' },
+	                        React.createElement(
+	                            'button',
+	                            { className: 'btn btn-facebook' },
+	                            React.createElement('i', { className: 'fa fa-facebook-square' }),
+	                            '    Signup with Facebook'
+	                        )
+	                    )
+	                ),
+	                React.createElement(
+	                    'div',
+	                    null,
+	                    React.createElement(
+	                        'h5',
+	                        { className: 'or-sperator text-center' },
+	                        'Or'
+	                    )
+	                )
+	            ),
+	            React.createElement(
+	                'div',
+	                { className: 'signup-div col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
+	                React.createElement(
+	                    'form',
+	                    { onSubmit: this.handleSubmit },
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement(
+	                            'label',
+	                            { htmlFor: 'email_input' },
+	                            'Email'
+	                        ),
+	                        React.createElement('input', { id: 'email_input', ref: 'email', type: 'email', className: 'form-control',
+	                            onChange: this.handleChange, required: true })
+	                    ),
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement(
+	                            'label',
+	                            { htmlFor: 'password_input' },
+	                            'Password'
+	                        ),
+	                        React.createElement('input', { id: 'password_input', ref: 'password', type: 'password', className: 'form-control',
+	                            onChange: this.handleChange, required: true })
+	                    ),
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement(
+	                            'label',
+	                            { htmlFor: 'verify_password_input' },
+	                            'Verify Password'
+	                        ),
+	                        React.createElement('input', { id: 'verify_password_input', ref: 'verify_password', type: 'password',
+	                            className: 'form-control', onChange: this.handleChange, required: true })
+	                    ),
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement('input', { type: 'submit', className: 'btn btn-primary full-width-btn', value: 'Submit' })
+	                    )
+	                ),
+	                React.createElement(
+	                    'p',
+	                    { className: 'text-center' },
+	                    'Already have an account? ',
+	                    React.createElement(
+	                        'a',
+	                        { href: '/login' },
+	                        'Sign in'
+	                    )
+	                )
+	            ),
+	            React.createElement(
+	                'div',
+	                { className: 'error-message col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
+	                React.createElement(
+	                    'h5',
+	                    { className: 'text-center message text-danger' },
+	                    this.state.message
+	                )
+	            )
+	        );
+	    }
+	});
+
+	module.exports = Signup;
+
+/***/ },
+/* 677 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	/**
+	 * Created by Benzo Media.
+	 * http://www.benzomedia.com
+	 * User: Oren Reuveni
+	 * Date: 16/06/2016
+	 * Time: 00:34
+	 */
+	var React = __webpack_require__(4);
+	var ReactDOM = __webpack_require__(212);
+	var Axios = __webpack_require__(602);
+	var CryptoJS = __webpack_require__(625);
+
+	var Signin = React.createClass({
+	    displayName: 'Signin',
+	    getInitialState: function getInitialState() {
+	        return {
+	            message: null
+	        };
+	    },
+	    componentWillMount: function componentWillMount() {
+	        var self = this;
+	        Axios.get('/auth/flash').then(function (response) {
+	            self.setState({
+	                message: response.data[0]
+	            });
+	            console.log(response);
+	        }).catch(function (response) {});
+	    },
+
+	    render: function render() {
+	        return React.createElement(
+	            'div',
+	            null,
+	            React.createElement(
+	                'h1',
+	                { className: 'text-center', style: { marginBottom: 30 } },
+	                'Sign in to Filicode'
+	            ),
+	            React.createElement(
+	                'div',
+	                { className: 'facebook-signin' },
+	                React.createElement(
+	                    'div',
+	                    { className: 'text-center' },
+	                    React.createElement(
+	                        'a',
+	                        { href: '/auth/facebook' },
+	                        React.createElement(
+	                            'button',
+	                            { className: 'btn btn-facebook' },
+	                            React.createElement('i', { className: 'fa fa-facebook-square' }),
+	                            '    Sign in with Facebook'
+	                        )
+	                    )
+	                ),
+	                React.createElement(
+	                    'div',
+	                    null,
+	                    React.createElement(
+	                        'h5',
+	                        { className: 'or-sperator text-center' },
+	                        'Or'
+	                    )
+	                )
+	            ),
+	            React.createElement(
+	                'div',
+	                { className: 'signup-div col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
+	                React.createElement(
+	                    'form',
+	                    { action: '/auth/login', method: 'POST' },
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement(
+	                            'label',
+	                            { htmlFor: 'email_input' },
+	                            'Email'
+	                        ),
+	                        React.createElement('input', { name: 'email', id: 'email_input', type: 'email', className: 'form-control', required: true })
+	                    ),
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement(
+	                            'label',
+	                            { htmlFor: 'password_input' },
+	                            'Password'
+	                        ),
+	                        React.createElement('input', { name: 'password', id: 'password_input', type: 'password',
+	                            className: 'form-control', required: true }),
+	                        React.createElement(
+	                            'p',
+	                            { style: { paddingTop: 5 } },
+	                            'Forgot password? ',
+	                            React.createElement(
+	                                'a',
+	                                { href: '/auth/password' },
+	                                'Click here'
+	                            )
+	                        )
+	                    ),
+	                    React.createElement(
+	                        'div',
+	                        { className: 'form-group' },
+	                        React.createElement('input', { type: 'submit', className: 'btn btn-primary full-width-btn', value: 'Submit' })
+	                    )
+	                ),
+	                React.createElement(
+	                    'p',
+	                    { className: 'text-center' },
+	                    'First time here? ',
+	                    React.createElement(
+	                        'a',
+	                        { href: '/signup' },
+	                        'Sign up'
+	                    )
+	                )
+	            ),
+	            this.state.message ? React.createElement(Alert, { message: this.state.message }) : null
+	        );
+	    }
+	});
+
+	var Alert = function Alert(props) {
+	    return React.createElement(
+	        'div',
+	        { style: { marginTop: 20 }, className: 'alert alert-danger col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4' },
+	        React.createElement(
+	            'h5',
+	            { className: 'text-center' },
+	            props.message
+	        )
+	    );
+	};
+
+	module.exports = Signin;
 
 /***/ }
 /******/ ]);

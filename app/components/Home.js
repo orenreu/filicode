@@ -6,14 +6,25 @@
  * Time: 15:33
  */
 var React = require('react');
+var Axios = require('axios');
 
 
 var Home = React.createClass({
-    render: function(){
-        return(
-            <h2 className="text-center">
-               You Are Home
-            </h2>
+    sendMail: function(){
+        Axios.get('/api/user/mail').then(function(response){
+            console.log(response);
+        }).catch(function(error){
+            console.log(error);
+        })
+    },
+    render: function () {
+        return (
+            <div>
+                <h2 className="text-center">
+                    You Are Home
+                </h2>
+                <button onClick={this.sendMail}>Send Mail</button>
+            </div>
         );
     }
 });
